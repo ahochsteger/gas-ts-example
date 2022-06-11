@@ -7,7 +7,6 @@ module.exports = {
   output: {
     path: __dirname,
     filename: "Code.js",
-    libraryTarget: "var",
   },
   plugins: [new GasPlugin()],
   devtool: false,
